@@ -1,0 +1,11 @@
+.creators{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.creators > li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

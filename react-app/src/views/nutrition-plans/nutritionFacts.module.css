@@ -1,0 +1,125 @@
+
+  
+  body {
+    /* font-size: small; */
+    line-height: 1.4;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .performance_facts {
+    border: 1px solid black;
+    float: right;
+    padding: 0.5rem;
+    zoom: 1;
+    width: 350px;
+    height: 420px;
+    
+    
+  }
+  
+  .performance_facts table {
+    border-collapse: collapse;
+  }
+  
+  .performance_facts__title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .performance_facts__header {
+    border-bottom: 10px solid black;
+    padding: 0 0 0.25rem 0;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .performance_facts__header p {
+    margin: 0;
+  }
+  
+  .performance_facts__table {
+    width: 100%;
+  }
+  
+  .performance_facts__table thead tr th,
+  .performance_facts__table thead tr td {
+    border: 0;
+  }
+  
+  .performance_facts__table th,
+  .performance_facts__table td {
+    font-weight: normal;
+    text-align: left;
+    padding: 0.25rem 0;
+    border-top: 1px solid black;
+    white-space: nowrap;
+  }
+  
+  .performance_facts__table td:last_child {
+    text-align: right;
+  }
+  
+  .performance_facts__table .blank-cell {
+    width: 1rem;
+    border-top: 0;
+  }
+  
+  .performance_facts__table .thick_row th,
+  .performance_facts__table .thick_row td {
+    border-top-width: 5px;
+  }
+  
+  .small_info {
+    font-size: 0.7rem;
+  }
+  
+  .performance_facts__table__small {
+    @extend .performance_facts__table;
+    border-bottom: 1px solid #999;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .performance_facts__table__small thead tr {
+    border-bottom: 1px solid black;
+  }
+  
+  .performance_facts__table__small td:last_child {
+    text-align: left;
+  }
+  
+  .performance_facts__table__small th,
+  .performance_facts__table__small td {
+    border: 0;
+    padding: 0;
+  }
+  
+  .performance_facts__table__grid {
+    @extend .performance_facts__table;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .performance_facts__table__grid td:last_child {
+    text-align: left;
+  }
+  
+  .performance_facts__table__grid td:last_child::before {
+    content: "•";
+    font-weight: bold;
+    margin: 0 0.25rem 0 0;
+  }
+  
+  .text_center {
+    text-align: center;
+  }
+  
+  .thick_end {
+    border-bottom: 10px solid black;
+  }
+  
+  .thin_end {
+    border-bottom: 1px solid black;
+  }
+  

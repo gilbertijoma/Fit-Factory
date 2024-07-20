@@ -1,0 +1,67 @@
+step *{
+    transition: all 0.2s;
+}
+
+.container{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #ffffff;
+    padding: 1rem;
+    border: solid 1px var(--gray);
+    border-radius: var(--bd-rad);
+    overflow-y: auto;
+}
+
+.step{
+    transition: all 0.2s;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: max-content max-content 1fr;
+    align-items: center;
+    overflow: hidden;
+    gap: 1rem;
+    min-height: 2.5rem;
+    list-style: none;
+    border-radius: 4px;
+    padding-right: 1rem;
+}
+
+.step.active, .step:hover{
+    background: #e0e0e0;
+}
+
+.step.click-disabled{
+    cursor: not-allowed;
+}
+
+.active-border{
+    width: 4px;
+    height: 100%;
+    background: transparent;
+}
+
+.step.active .active-border{
+    background: #24c196;
+}
+
+/* Step title */
+.title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.step.complete title{
+    color: var(--txt-clr);
+}
+
+.title.active{
+    color: var(--clr-accent);
+}
+
+.complete{
+    --complete: #24c196;
+    color: var(--complete);
+}

@@ -1,0 +1,38 @@
+.profile{
+    position: relative;
+}
+
+.profile-pic{
+    cursor: pointer;
+}
+
+.profile-pic.active{
+    border: solid 1px var(--clr-accent);
+}
+
+.drop-down{
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    z-index: 99;
+    min-width: 14rem;
+    height: max-content;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: var(--shadow);
+    border-radius: var(--bd-rad);
+}
+
+.item{
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0.25rem;
+    color: #2d3441;
+}
+
+.item:hover{
+    background: #e9e8e8;
+}

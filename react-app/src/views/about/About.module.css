@@ -1,0 +1,275 @@
+
+.about-container{
+  overflow-y: auto;
+}
+
+/* Banner */
+
+  .gymBanner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0;
+  }
+  
+  .gymBanner img {
+    max-width: 100%;
+  }
+
+  .gymBanner h1 {
+    background: transparent;
+    color: white;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 40px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    text-align: right;
+    line-height: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.35em;
+  }
+
+  .gymBanner p {
+    background: transparent;
+    color: white;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 24px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    text-align: right;
+    line-height: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.35em;
+  }
+  
+.general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 2rem;
+  }
+
+  /* Purpose Statement */
+
+  .whoAreWe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+    text-align: center;
+    /* align-items: center; */
+    /* padding-top: 0.5rem; */
+
+  }
+  
+  .whoAreWe img {
+    max-width: 100%;
+    /* max-height: 20rem; */
+  }
+  
+  .whoAreWe h1 {
+    color: #27396e;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  .whoAreWe p {
+    color: #171c2199;
+    padding: 0.5rem;
+    font-size: 24px;
+    vertical-align: baseline;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+  
+  /* Training section */
+
+.training {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+
+  }
+  
+  .training img {
+    max-width: 100%;
+  }
+  
+  .training h1 {
+    color: #27396e;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  .training p {
+    color: #171c2199;
+    font-size: 24px;
+    vertical-align: baseline;
+    letter-spacing: 0.1em;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .view-workouts {
+    color: #e21c21;
+    font-size: 24px;
+    vertical-align: baseline;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .icon-right-arrow {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+    background-image: url("./AboutImages/right-arrow.svg");
+  }
+
+/* nutrition section */
+
+.nutrition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+  
+  .nutrition img {
+    max-width: 100%;
+  }
+  
+  .nutrition h1 {
+    color: #27396e;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  .nutrition p {
+    color: #171c2199;
+    font-size: 24px;
+    vertical-align: baseline;
+    letter-spacing: 0.1em;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .view-recipes {
+    color: #e21c21;
+    font-size: 24px;
+    vertical-align: baseline;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .icon-left-arrow {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+  }
+
+
+  /* Wellness section */
+
+.wellness {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+  
+  .wellness img {
+    max-width: 100%;
+  }
+  
+  .wellness h1 {
+    color: #27396e;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  .wellness p {
+    color: #171c2199;
+    font-size: 24px;
+    vertical-align: baseline;
+    letter-spacing: 0.1em;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .learn-more {
+    color: #e21c21;
+    font-size: 24px;
+    vertical-align: baseline;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  /* Meet trainers */
+
+.trainer-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+  }
+  
+  .trainer-intro h1 {
+    justify-items: start;
+    color: #171c21de;
+  }
+  
+  .trainers-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 1rem;
+    background-color: whitesmoke;
+
+  }
+  
+  .trainers-grid img {
+    transition: all 0.2s;
+    width: 200px;
+    height: 300px;
+    margin-right: 1px; /* Add a small margin to separate the images */
+    object-fit: cover; /* Specify how the image should fit inside its container */
+  }
+  
+  .trainers-grid img:hover {
+    transform: scale(1.1); /* Scale the image up slightly on hover */
+  }

@@ -1,0 +1,25 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.error > h1{
+    font-size: 4rem;
+}
+
+#err-img{
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+    max-height: 30rem;
+}
+
+#home{
+    font-size: 1.2rem;
+    padding: 1rem;
+}

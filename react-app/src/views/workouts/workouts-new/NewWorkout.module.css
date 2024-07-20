@@ -1,0 +1,97 @@
+.container {
+    justify-self: center;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: max-content minmax(20rem, 1fr); */
+    column-gap: 5rem;
+    /* justify-content: center; */
+    width: 100%;
+    max-width: 80rem;
+    padding: 1rem;
+}
+
+
+#progress {
+    /* justify-self: flex-end; */
+    flex-basis: 30rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 2rem;
+    width: 100%;
+    background: #ffffff;
+    border-radius: var(--bd-rad);
+    border: solid 1px var(--gray);
+}
+
+.form .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.form .actions button {
+    width: 10rem;
+}
+
+.header{
+    padding: 1rem 0rem;
+    border-bottom: solid 2px var(--gray);
+}
+
+.header > .title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+
+#workout-form {
+    display: grid;
+    justify-content: stretch;
+    gap: 1rem;
+    width: 100%;
+    height: max-content;
+    overflow-y: auto;
+    max-width: 40rem;
+    border-radius: var(--bd-rad);
+    border: solid 2px var(--gray);
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 1.25rem;
+}
+
+#submit {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    justify-self: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+
+.section label:first-child {
+    font-size: 1.2rem;
+}
+
+
+#duration {
+    width: max-content;
+}
+
+.error {
+    border-color: red;
+}

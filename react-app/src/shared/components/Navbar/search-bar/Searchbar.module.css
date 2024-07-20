@@ -1,0 +1,24 @@
+#searchbar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    color: var(--gray);
+    /* color: #ffffff; */
+    background: transparent;
+}
+
+#searchbar > input[type=text]{
+    border: none;
+    font-size: inherit;
+    background: transparent;
+    padding: 0;
+    /* color: #ffffff; */
+}
+
+#searchbar > svg{
+    color: inherit;
+    height: 1.7rem;
+    width: 1.7rem;
+}
