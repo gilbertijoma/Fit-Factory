@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "npx nodemon -e ts,js --exec ts-node -r tsconfig-paths/register ./src/index.ts",
     "build": "tsc --project ./tsconfig.json",
-    "prod": "tsc --project ./tsconfig.json && node ./out/index.js",
-    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
-    "start": "node ./out/index.js"
+    "prod": "tsc --project ./tsconfig.json && npx nodemon -e ts,js --exec ts-node -r tsconfig-paths/register ./out/index.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+    
   },
   "author": "",
   "license": "ISC",

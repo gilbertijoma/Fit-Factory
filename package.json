@@ -2,8 +2,8 @@
   "name": "fit-factory",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\"",
-    "heroku-postbuild": "npm install --prefix react-app && npm run build --prefix react-app",
+    "start": "node server/out/index.js",
+    "heroku-postbuild": "cd react-app && npm install && npm run build",
     "dev": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\""
   },
   "dependencies": {
