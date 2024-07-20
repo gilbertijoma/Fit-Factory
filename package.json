@@ -7,6 +7,7 @@
     "dev": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\""
   },
   "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "concurrently": "^6.0.0"
   },
   "description": "Fitness application for tracking meals/nutrition,  workout progress, and viewing workout plans.\r https://fit-factory-web.herokuapp.com/",
