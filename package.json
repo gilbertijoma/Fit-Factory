@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server/out/index.js",
-    "heroku-postbuild": "cd react-app && npm install && npm run build",
+    "heroku-postbuild": "cd react-app && npm install && npm run dev",
     "dev": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\""
   },
   "dependencies": {
