@@ -2,7 +2,7 @@
   "name": "fit-factory",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run build --prefix nodejs && node nodejs/dist/index.js",
+    "start": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\"",
     "heroku-postbuild": "npm install --prefix react-app && npm run build --prefix react-app",
     "dev": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\""
   },
@@ -10,7 +10,7 @@
     "concurrently": "^6.0.0"
   },
   "description": "Fitness application for tracking meals/nutrition,  workout progress, and viewing workout plans.\r https://fit-factory-web.herokuapp.com/",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "",
   "license": "ISC",
   "engines": {
