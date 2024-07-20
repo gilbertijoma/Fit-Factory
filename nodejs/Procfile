@@ -1,1 +1,0 @@
-web: cd ../react-app && npm run build && cd - && npm run prod

@@ -1,0 +1,1 @@
+web: cd nodejs && npm run prod
