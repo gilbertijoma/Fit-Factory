@@ -15,5 +15,8 @@
   "license": "ISC",
   "engines": {
     "node": "20.x"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
   }
 }
