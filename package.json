@@ -7,39 +7,14 @@
     "dev": "concurrently \"npm run dev --prefix nodejs\" \"npm run dev --prefix react-app\""
   },
   "dependencies": {
-    "@vitejs/plugin-react-swc": "^3.7.0",
-    "concurrently": "^6.0.0",
-		"@emotion/react": "^11.10.6",
-		"@emotion/styled": "^11.10.6",
-		"@mui/icons-material": "^5.11.11",
-		"@mui/material": "^5.11.14",
-		"@radix-ui/react-icons": "^1.3.0",
-		"axios": "^1.3.4",
-		"javascript-time-ago": "^2.5.9",
-		"mongodb": "^5.1.0",
-		"prettier": "^2.8.8",
-		"prop-types": "^15.8.1",
-		"react": "^18.2.0",
-		"react-avatar": "^5.0.3",
-		"react-dom": "^18.2.0",
-		"react-spinners": "^0.13.8",
-		"react-transition-group": "^4.4.5",
-		"vite-tsconfig-paths": "^4.0.5"
+    "concurrently": "^6.0.0"
 	},
 	
-  "description": "Fitness application for tracking meals/nutrition,  workout progress, and viewing workout plans.\r https://fit-factory-web.herokuapp.com/",
+  "description": "Fitness application for tracking meals/nutrition,  workout progress, and viewing workout plans.",
   "main": "index.ts",
   "author": "",
   "license": "ISC",
   "engines": {
     "node": "20.x"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-		"@types/react-dom": "^18.0.10",
-		"@vitejs/plugin-react-swc": "^3.0.0",
-		"react-router-dom": "^6.8.1",
-		"typescript": "^4.9.3",
-		"vite": "^4.1.0"
   }
 }
